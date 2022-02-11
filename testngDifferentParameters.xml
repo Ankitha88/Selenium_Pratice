@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+   <parameter name = "suite-param" value = "jan"/> 
+   
+	<test thread-count="5" name="Test">
+		<classes>
+	  		<class name="testNGPkg.DifferentParameters">
+	  		<methods>
+	  			<include name = "method1" />
+	  		</methods>
+	  		</class>
+		</classes>
+  </test> <!-- Test -->
+  
+  
+  
+    <parameter name = "test-2-param" value = "Yan"/>
+    
+	<test thread-count="5" name="Test1">
+		<classes>
+	  		<class name="testNGPkg.DifferentParameters">
+	  		<methods>
+	  			<include name = "method2" />
+	  		</methods>
+	  		</class>
+		</classes>
+  </test> <!-- Test -->
+  
+  
+  
+    <parameter name = "suite-param" value = "PraJan"/>
+    <parameter name = "test-3-param" value = "PraYan"/>
+    
+	<test thread-count="5" name="Test2">
+		<classes>
+	  		<class name="testNGPkg.DifferentParameters">
+	  		<methods>
+	  			<include name = "method3" />
+	  		</methods>
+	  		</class>
+		</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
