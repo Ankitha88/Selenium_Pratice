@@ -106,6 +106,7 @@ public class MarksEntryInMethods {
 				locator.findElement(driver).click();
 			}else {
 				System.out.println(msg);
+				System.out.println("Trying Coomitt");
 			}
 		}
 		
