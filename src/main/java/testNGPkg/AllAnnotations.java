@@ -6,6 +6,7 @@ public class AllAnnotations {
 	
 	@BeforeSuite
 	public void beforeSuite() {
+		System.out.println("I am in Before Suite1");
 		System.out.println("I am in Before Suite");
 	}
 
@@ -49,6 +50,8 @@ public class AllAnnotations {
 		System.out.println("I am in Test method");
 		//GIT commit
 		System.out.println("Adding changes in Git repository");
+	
+
 	}
 	
 }
